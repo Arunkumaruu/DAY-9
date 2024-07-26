@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignUpPage", "SignUpPage\SignUpPage.csproj", "{FAF4F6D3-7AD7-4EF5-A744-C54019FB480D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06BA9FB5-72BE-4C87-AE7D-95D3B00652BD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewViews", "NewViews", "{AFC2FBA5-1586-49EA-AF54-00C8244E199C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Account", "Account", "{A1A97B84-8460-46A1-BA9A-702D0B3AF943}"
+	ProjectSection(SolutionItems) = preProject
+		SignUpPage\Views\Account\SignUp.cshtml = SignUpPage\Views\Account\SignUp.cshtml
+		SignUpPage\Views\Account\SignUpSuccess.cshtml = SignUpPage\Views\Account\SignUpSuccess.cshtml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAF4F6D3-7AD7-4EF5-A744-C54019FB480D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF4F6D3-7AD7-4EF5-A744-C54019FB480D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF4F6D3-7AD7-4EF5-A744-C54019FB480D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF4F6D3-7AD7-4EF5-A744-C54019FB480D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1A97B84-8460-46A1-BA9A-702D0B3AF943} = {AFC2FBA5-1586-49EA-AF54-00C8244E199C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA959A92-0B8B-4AC5-B15E-28D5E1C5FEA0}
+	EndGlobalSection
+EndGlobal
